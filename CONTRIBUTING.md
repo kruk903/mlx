@@ -1,38 +1,28 @@
-# Contributing to MLX
+# Wkład
 
-We want to make contributing to this project as easy and transparent as
-possible.
+Dziękujemy za zainteresowanie przyczynieniem się do tego projektu! Poniżej znajdują się wytyczne dotyczące tego, jak to zrobić.
 
-## Pull Requests
+## Zgłaszanie problemów
 
-1. Fork and submit pull requests to the repo. 
-2. If you've added code that should be tested, add tests.
-3. If a change is likely to impact efficiency, run some of the benchmarks before
-   and after the change. Examples of benchmarks can be found in `benchmarks/python/`.
-4. If you've changed APIs, update the documentation.
-5. Every PR should have passing tests and at least one review. 
-6. For code formatting install `pre-commit` using something like `pip install pre-commit` and run `pre-commit install`.
-   This should install hooks for running `black` and `clang-format` to ensure
-   consistent style for C++ and python code.
- 
-   You can also run the formatters manually as follows:
- 
-     ```
-     clang-format -i file.cpp
-     ```
- 
-     ```
-     black file.py
-     ```
- 
-   or run `pre-commit run --all-files` to check all files in the repo.
+Jeśli napotkasz błąd lub masz sugestię dotyczącą funkcji, otwórz zgłoszenie na GitHubie. Prosimy o dołączenie jak największej ilości szczegółów, aby pomóc nam w zrozumieniu problemu lub sugestii.
 
-## Issues
+## Zasady kodowania
 
-We use GitHub issues to track public bugs. Please ensure your description is
-clear and has sufficient instructions to be able to reproduce the issue.
+Prosimy o przestrzeganie następujących zasad kodowania podczas przyczyniania się do tego projektu:
+- Staraj się pisać czysty i czytelny kod.
+- Używaj odpowiednich komentarzy w kodzie.
+- Przestrzegaj konwencji nazewnictwa stosowanych w projekcie.
 
-## License
+## Tworzenie pull requestów
 
-By contributing to MLX, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of this source tree.
+Jeśli chcesz wprowadzić zmiany w projekcie, otwórz pull request. Prosimy o dołączenie opisu wprowadzonej zmiany oraz powód jej wprowadzenia.
+
+## Testowanie
+
+Przed wysłaniem pull requestu, przetestuj swoje zmiany, aby upewnić się, że nie wprowadzają one nowych błędów. Jeśli to możliwe, dodaj testy jednostkowe dla swojej zmiany.
+
+## Dokumentacja
+
+Jeśli wprowadzasz zmiany, które wpływają na sposób użytkowania projektu, zaktualizuj odpowiednią dokumentację.
+
+Dziękujemy za Twój wkład!
